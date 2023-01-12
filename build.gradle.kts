@@ -6,4 +6,5 @@ plugins {
 
     // Hilt
     id(Plugins.hilt) version Version.hilt apply false
+    id("org.jetbrains.kotlin.jvm") version "1.7.20" apply false
 }

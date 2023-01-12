@@ -45,46 +45,16 @@ dependencies {
     // Core
     implementation(Dependencies.Core.core)
 
-    // AppCompat
-    implementation(Dependencies.UIComponents.appCompat)
-
-    // Material
-    implementation(Dependencies.UIComponents.material)
-
-    // ConstraintLayout
-    implementation(Dependencies.UIComponents.constraintLayout)
-
     // Hilt
     implementation(Dependencies.Hilt.hilt)
     kapt(Dependencies.Hilt.compiler)
 
-    // Retrofit
-    implementation(Dependencies.Retrofit.retrofit)
+    // Domain
+    implementation(project(":domain"))
 
-    // OkHttp
-    implementation(Dependencies.OkHttp.okHttp)
-    implementation(Dependencies.OkHttp.bom)
-    implementation(Dependencies.OkHttp.loggingInterceptor)
+    // Data
+    implementation(project(":data"))
 
-    // ViewBindingPropertyDelegate
-    implementation(Dependencies.ViewBindingPropertyDelegate.viewBindingPropertyDelegate)
-
-    // NavComponents
-    implementation(Dependencies.NavComponents.navigationFragment)
-    implementation(Dependencies.NavComponents.navigationUI)
-
-    // Lifecycle
-    implementation(Dependencies.Lifecycle.liveData)
-    implementation(Dependencies.Lifecycle.viewModel)
-    implementation(Dependencies.Lifecycle.viewModelCompose)
-
-    // Coil
-    implementation(Dependencies.Coil.coil)
-
-    // GsonConverter
-    implementation(Dependencies.GsonConverter.gsonConverter)
-
-    // Coroutine
-    implementation(Dependencies.Coroutines.coroutineAndroid)
-    implementation(Dependencies.Coroutines.coroutineCore)
+    // Presentation
+    implementation(project(":presentation"))
 }

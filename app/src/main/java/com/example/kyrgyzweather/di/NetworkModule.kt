@@ -1,6 +1,6 @@
 package com.example.kyrgyzweather.di
 
-import com.example.kyrgyzweather.data.remote.RetrofitClient
+import com.example.data.remote.RetrofitClient
 import dagger.Module
 import dagger.Provides
 import dagger.hilt.InstallIn

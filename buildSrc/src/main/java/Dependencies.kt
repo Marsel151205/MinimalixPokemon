@@ -65,5 +65,6 @@ object Dependencies {
     object Coroutines {
         const val coroutineAndroid = "org.jetbrains.kotlinx:kotlinx-coroutines-android:1.3.9"
         const val coroutineCore = "org.jetbrains.kotlinx:kotlinx-coroutines-core:1.3.9"
+        const val coroutineCoreJVM = "org.jetbrains.kotlinx:kotlinx-coroutines-core-jvm:1.6.4"
     }
 }

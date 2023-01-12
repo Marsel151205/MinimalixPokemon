@@ -1,7 +1,7 @@
 package com.example.kyrgyzweather.di
 
-import com.example.kyrgyzweather.data.repositories.PokemonRepositoryImpl
-import com.example.kyrgyzweather.domain.repositories.PokemonRepository
+import com.example.data.repositories.PokemonRepositoryImpl
+import com.example.domain.repositories.PokemonRepository
 import dagger.Binds
 import dagger.Module
 import dagger.hilt.InstallIn
